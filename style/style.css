@@ -214,13 +214,11 @@ body {
   background-image: url('../img/Arrow.svg');
   background-repeat: no-repeat;
   background-position: left;
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   line-height: 23px;
   
 }
 .container_articl{
-  font-family: Arial;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
@@ -230,7 +228,7 @@ body {
   color: #3F2AFF;
 }
 .container_list-articl{
-  font-family: Arial;
+  margin-top: 201px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -253,25 +251,39 @@ body {
   Height:275px;
 }
 .footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
+  background-color: #fff;
+  border: none;
 }
 .footer-link{
   text-decoration: none;
-  padding: 25px 76px;
-  border: 2px solid #3F2AFF;
   color:#3F2AFF ;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20.7px;
+  border: 2px solid #3F2AFF;
+  padding: 25px 76px;
+  display: block;
 }
 .container_list-paragraf{
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   margin: 0;
   font-size: 20px;
   line-height: 33px;
+}
+.container_list-pic1{
+  background-image: url('../img/intro.jpg');
+  background-repeat: no-repeat;
+}
+.container_list-pic2{
+  background-image: url('../img/base_html.jpg');
+  background-repeat: no-repeat;
+}
+.container_list-pic3{
+  background-image: url('../img/base_css.jpg');
+  background-repeat: no-repeat;
+}
+.container_list-pic4{
+  background-image: url('../img/maket.jpg');
+  background-repeat: no-repeat;
 }
