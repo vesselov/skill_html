@@ -185,6 +185,7 @@ body {
 
 }
 .container_list{
+  font-size:0;
   list-style-type: none;
   Width: 572px;
   Height : 505px;
