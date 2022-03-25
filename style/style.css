@@ -197,7 +197,7 @@ body {
 .container_list:nth-child(2n){
   margin-right: 0;
 }
-.container_list-main--fix{
+.container_list:nth-last-child(-n+2){
   margin-bottom: 0;
 }
 .container_logo{
@@ -216,7 +216,6 @@ body {
   background-position: left;
   font-style: normal;
   line-height: 23px;
-  
 }
 .container_articl{
   font-size: 60px;
@@ -228,7 +227,7 @@ body {
   color: #3F2AFF;
 }
 .container_list-articl{
-  margin-top: 201px;
+  margin-top: 205px;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
